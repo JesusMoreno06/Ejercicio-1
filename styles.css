@@ -26,3 +26,21 @@ header {
     box-shadow: 0 4px 6px rgba(0,0,0,0.1);
     transition: transform 0.2s;
 }
+/* Efecto hover */
+.receta:hover {
+    transform: scale(1.02);
+}
+
+/* Imágenes */
+.receta img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+/* Pie de página */
+footer {
+    text-align: center;
+    background: #333;
+    color: white;
+    padding: 10px;
+}
